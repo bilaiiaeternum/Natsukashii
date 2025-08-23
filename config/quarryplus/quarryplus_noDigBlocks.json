@@ -11,16 +11,6 @@
   },
   {
     "blockstate": {
-      "name": "minecraft:red_sandstone",
-      "properties": {
-        "type": "red_sandstone"
-      }
-    },
-    "ignoreProperty": false,
-    "ignoreMeta": true
-  },
-  {
-    "blockstate": {
       "name": "minecraft:netherrack",
       "properties": {}
     },
@@ -34,6 +24,16 @@
     },
     "ignoreProperty": false,
     "ignoreMeta": false
+  },
+  {
+    "blockstate": {
+      "name": "minecraft:red_sandstone",
+      "properties": {
+        "type": "red_sandstone"
+      }
+    },
+    "ignoreProperty": false,
+    "ignoreMeta": true
   },
   {
     "blockstate": {
