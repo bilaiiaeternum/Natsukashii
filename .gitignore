@@ -11,6 +11,7 @@ crash-report
 /saves
 /screenshots
 /shaderpacks
+.ReAuth.cfg
 .curseclient
 minecraftinstance.json
 optionsshaders.txt
