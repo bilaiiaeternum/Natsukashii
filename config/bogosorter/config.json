@@ -2,9 +2,9 @@
   "General": {
     "enableAutoRefill": true,
     "refillDmgThreshold": 1,
-    "enableHotbarSwap": false,
+    "enableHotbarSwap": true,
     "sortSound": "minecraft:ui.button.click",
-    "buttonColor": "#2908c8c",
+    "buttonColor": "#ffffffff",
     "buttonEnabled": true
   },
   "ItemSortRules": [

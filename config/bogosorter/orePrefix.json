@@ -7,8 +7,18 @@
     "dust",
     "nugget",
     "block",
+    "plate",
+    "plateDense",
+    "gear",
+    "stick",
+    "crystal",
+    "coin",
+    "fuel",
+    "crushed",
+    "crushedPurified",
     "glass",
     "ore",
-    "log"
+    "log",
+    "rod"
   ]
 }

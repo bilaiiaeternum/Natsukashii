@@ -15,7 +15,9 @@
   "Copper": {
     "color": "#FF8833",
     "tooltip": "Tastes like metal",
-    "smeltingResult": "tconstruct:common_nuggets",
+    "smeltingResult": {
+      "color": "#FF6600"
+    },
     "rarity": 4,
     "density": 2,
     "minHeight": 20,
@@ -24,7 +26,9 @@
   "Tin": {
     "color": "#BB4422",
     "tooltip": "Tin Man",
-    "smeltingResult": "tconstruct:common_nuggets:1",
+    "smeltingResult": {
+      "color": "#FFBA80"
+    },
     "rarity": 4,
     "density": 2,
     "maxHeight": 40
@@ -36,11 +40,12 @@
       "nuggetAluminum",
       "nuggetAluminium"
     ],
-    "smeltingResult": "tconstruct:common_nuggets:1",
+    "smeltingResult": {
       "ingotNames": [
         "ingotAluminum",
         "ingotAluminium"
-      ],
+      ]
+    },
     "rarity": 3,
     "density": 2,
     "maxHeight": 60,
