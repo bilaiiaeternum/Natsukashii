@@ -1,4 +1,4 @@
-//----------------------------------------------------------
+    //----------------------------------------------------------
 /*      Quark script by:
         "Modernized 1.12.2: Golden Era" Team
                   THANX!!!!!
@@ -29,4 +29,37 @@ for i in 0 to 6 {
 <ore:logWood>.add(<quark:bark:*>);
 furnace.remove(<minecraft:coal:1>);
 furnace.addRecipe(<minecraft:coal:1>, <ore:logWood>, 0.15);
+//----------------------------------------------------------
+    // Cambiar Receta | Iron Rod
+recipes.remove(<quark:iron_rod>);
+
+val iron = <minecraft:iron_ingot>;
+val ironROD = <quark:iron_rod>;
+
+recipes.addShapedMirrored("ironRod", ironROD,
+ [[null,iron,null],
+  [null,iron,null],
+  [null,iron,null]]);
+//----------------------------------------------------------
+mods.jei.JEI.hide(<quark:biotite>);
+//----------------------------------------------------------
+    // Cambiar Receta | Rain Detector
+recipes.remove(<quark:rain_detector>);
+
+// Cambiar receta | Rain Detector
+recipes.addShaped("raindetector", <quark:rain_detector>, [
+        [<ore:blockGlass>,              <ore:blockGlass>,              <ore:blockGlass>],
+        [<botania:quartz>,              <botania:quartz>,              <botania:quartz>],
+        [<minecraft:purpur_slab>,       <minecraft:purpur_slab>,       <minecraft:purpur_slab>]
+]);
+//----------------------------------------------------------
+    // Cambiar Receta | Redstone Randomizer
+recipes.remove(<quark:redstone_randomizer>);
+
+// Cambiar receta | Redstone Randomizer
+recipes.addShaped("redstonerandom", <quark:redstone_randomizer>, [
+        [null,                                          <ore:craftingRedstoneTorch>,                null],
+        [<ore:craftingRedstoneTorch>,                   <botania:quartz>,     <ore:craftingRedstoneTorch>],
+        [<ore:stone>,                                   <ore:stone>,           <ore:stone>]
+]);
 //----------------------------------------------------------

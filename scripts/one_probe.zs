@@ -10,14 +10,17 @@ recipes.addShaped("probeG", <theoneprobe:probe_goggles>, [
 //----------------------------------------------------------
 	// Eliminar receta | Probe
 recipes.remove(<theoneprobe:probe>);
+mods.jei.JEI.hide(<theoneprobe:probe>);
 
 	// Eliminar receta | Iron Probe
 recipes.remove(<theoneprobe:iron_helmet_probe>);
+mods.jei.JEI.hide(<theoneprobe:iron_helmet_probe>);
 
 	// Eliminar receta | Gold Probe
 recipes.remove(<theoneprobe:gold_helmet_probe>);
+mods.jei.JEI.hide(<theoneprobe:gold_helmet_probe>);
 
 	// Eliminar receta | Diamond Probe
 recipes.remove(<theoneprobe:diamond_helmet_probe>);
-
+mods.jei.JEI.hide(<theoneprobe:diamond_helmet_probe>);
 //----------------------------------------------------------

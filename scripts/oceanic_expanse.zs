@@ -34,6 +34,14 @@ recipes.addShaped(<minecraft:slime>, [
 ]);
 //----------------------------------------------------------
 
+
+
+
+
+
+
+
+
     // Añadir OreDict | Coquina
 val oreCoquina = <ore:coquina>;
  oreCoquina.add(<oe:coquina>);
