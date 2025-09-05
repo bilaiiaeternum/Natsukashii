@@ -11,6 +11,17 @@
 /saves
 /screenshots
 /shaderpacks
+/mods/Caliper-1.12.2-1.1.44.jar
+/mods/debugstick-1.2.jar
+/mods/world_generation_profiler-[1.8-1.12.2]-1.2.1.5.jar
+/mods/worldedit-forge-mc1.12.2-6.1.10-dist.jar
+/mods/World-Stripper-1.6.0-1.12.2.jar
+/mods/spark-unforged-1.11.140-forge.jar
+/config/worldedit
+/config/worldgeneration_profiler.cfg
+/config/worldstripper.cfg
+/logs/caliper
+/logs/spark
 .ReAuth.cfg
 .curseclient
 minecraftinstance.json
