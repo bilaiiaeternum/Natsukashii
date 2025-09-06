@@ -1,10 +1,9 @@
-    //----------------------------------------------------------
+//----------------------------------------------------------
 /*      Quark script by:
         "Modernized 1.12.2: Golden Era" Team
                   THANX!!!!!
 */
 
-#modloaded oe quark
 #loader crafttweaker reloadable
 import crafttweaker.item.IItemStack;
 
@@ -36,13 +35,13 @@ recipes.remove(<quark:iron_rod>);
 val iron = <minecraft:iron_ingot>;
 val ironROD = <quark:iron_rod>;
 
-recipes.addShapedMirrored("ironRod", ironROD,
+recipes.addShaped("ironRod", ironROD,
  [[null,iron,null],
   [null,iron,null],
   [null,iron,null]]);
 //----------------------------------------------------------
 mods.jei.JEI.hide(<quark:biotite>);
-//----------------------------------------------------------
+
     // Cambiar Receta | Rain Detector
 recipes.remove(<quark:rain_detector>);
 
